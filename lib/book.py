@@ -16,3 +16,5 @@ class Book:
         else:
             print("page_count must be an integer")
     
+    def turn_page(self):
+        print("Flipping the page...wow, you read fast!")
