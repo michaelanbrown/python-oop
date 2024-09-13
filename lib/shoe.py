@@ -4,3 +4,7 @@ class Shoe:
     def __init__(self, brand, size):
         self.size = size
         self.brand = brand
+
+    @property
+    def size(self):
+        return self._size
