@@ -5,3 +5,7 @@ class Book:
         self.title = title
         self.page_count = page_count
         
+    @property
+    def page_count(self):
+        return self._page_count
+    
