@@ -9,3 +9,10 @@ class Book:
     def page_count(self):
         return self._page_count
     
+    @page_count.setter
+    def page_count(self, page_count):
+        if isinstance(page_count, int):
+            self._page_count = page_count
+        else:
+            print("page_count must be an integer")
+    
