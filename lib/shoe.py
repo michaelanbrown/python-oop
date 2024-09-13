@@ -15,3 +15,7 @@ class Shoe:
             self._size = size
         else:
             print("size must be an integer")
+
+    def cobble(self):
+        self.condition = "New"
+        print("Your shoe is as good as new!")
